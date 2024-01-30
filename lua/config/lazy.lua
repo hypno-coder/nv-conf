@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- подтягивает плагины из файла plugins.lua
-require("lazy").setup("plugins"); 
+require("lazy").setup("plugins");
 
 
 
