@@ -1,16 +1,17 @@
 -- этот плагин создает меню которое вызывается при нажатии <leader>
 return {
-  "folke/which-key.nvim",
-  config = function()
-    vim.o.timeout = true
-    vim.o.timeoutlen = 300
-    local wk = require("which-key")
-    wk.register({
+    "folke/which-key.nvim",
+    config = function()
+        vim.o.timeout = true
+        vim.o.timeoutlen = 300
+        local wk = require("which-key")
+        wk.register({
             ["<leader>"] = {
 
                 e = { ":Neotree float focus<CR>", "File System" },
                 o = { ":Neotree float git_status<CR>", "Git Status" },
-                K = { vim.lsp.buf.hover, "Hover Cursor"},
+                K = { vim.lsp.buf.hover, "Hover Cursor" },
+                t = { "<cmd>ChatGPT<CR>", "ChatGPT" },
                 f = {
                     name = "Find",
                     f = { "<cmd>Telescope find_files<cr>", "Find File" },
@@ -20,15 +21,20 @@ return {
                 },
                 c = {
                     name = "Code",
-                    a = { vim.lsp.buf.code_action, "Action"}
+                    a = { vim.lsp.buf.code_action, "Action" },
                 },
                 g = {
                     name = "GO",
-                    f = { vim.lsp.buf.format, "Go Format"},
-                    d = { vim.lsp.buf.definition, "Go Definition"}
-                }
-
+                    f = { vim.lsp.buf.format, "Go Format" },
+                    d = { vim.lsp.buf.definition, "Go Definition" },
+                },
+                d = {
+                    name = "DAP",
+                    b = "Toggle Breakpoint",
+                    B = "Set Breakpoint",
+                    c = "Continue",
+                },
             },
         })
-  end
+    end,
 }
