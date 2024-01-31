@@ -1,7 +1,7 @@
 -- mason это пакетный менеджер для lsp серверов, mason-lspconfig это прокладка
 -- для соедениея mason и nvim-lsp&
 -- в mason-lspconfig мы указываем какие lsp установить
--- а в nvim-lspconfig мы активируем slp, и они начинают общатся с серверами 
+-- а в nvim-lspconfig мы активируем эти slp, и они начинают общатся с серверами 
 return {
     {
         "williamboman/mason.nvim",
@@ -42,13 +42,6 @@ return {
             lspconfig.cssls.setup({})
             lspconfig.stylelint_lsp.setup({})
             lspconfig.jsonls.setup({})
-
-            --описание выделенного кода shift+k
-            vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-            -- перейти к определению
-            vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
-            -- выор действия с кодом, на пример с ошибкой пробел + с + а
-            vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
         end
     }
 }
