@@ -11,7 +11,6 @@ return {
                 e = { ":Neotree float focus<CR>", "File System" },
                 o = { ":Neotree float git_status<CR>", "Git Status" },
                 K = { vim.lsp.buf.hover, "Hover Cursor" },
-                t = { "<cmd>ChatGPT<CR>", "ChatGPT" },
                 f = {
                     name = "Find",
                     f = { "<cmd>Telescope find_files<cr>", "Find File" },
@@ -22,6 +21,7 @@ return {
                 c = {
                     name = "Code",
                     a = { vim.lsp.buf.code_action, "Action" },
+                    g = { "<cmd>ChatGPT<CR>", "ChatGPT" },
                 },
                 g = {
                     name = "GO",
