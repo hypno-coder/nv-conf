@@ -30,18 +30,40 @@ return {
     },
     {
         "neovim/nvim-lspconfig",
+        lazy = false,
         config = function()
+            local capabilities = require('cmp_nvim_lsp').default_capabilities()
             local lspconfig = require('lspconfig')
-            lspconfig.lua_ls.setup({})
-            lspconfig.tsserver.setup({})
-            lspconfig.pyright.setup({})
-            lspconfig.rust_analyzer.setup({})
-            lspconfig.dockerls.setup({})
-            lspconfig.docker_compose_language_service.setup({})
-            lspconfig.sqlls.setup({})
-            lspconfig.cssls.setup({})
-            lspconfig.stylelint_lsp.setup({})
-            lspconfig.jsonls.setup({})
+            lspconfig.lua_ls.setup({
+                capabilities = capabilities
+            })
+            lspconfig.tsserver.setup({
+                capabilities = capabilities
+            })
+            lspconfig.pyright.setup({
+                capabilities = capabilities
+            })
+            lspconfig.rust_analyzer.setup({
+                capabilities = capabilities
+            })
+            lspconfig.dockerls.setup({
+                capabilities = capabilities
+            })
+            lspconfig.docker_compose_language_service.setup({
+                capabilities = capabilities
+            })
+            lspconfig.sqlls.setup({
+                capabilities = capabilities
+            })
+            lspconfig.cssls.setup({
+                capabilities = capabilities
+            })
+            lspconfig.stylelint_lsp.setup({
+                capabilities = capabilities
+            })
+            lspconfig.jsonls.setup({
+                capabilities = capabilities
+            })
         end
     }
 }
