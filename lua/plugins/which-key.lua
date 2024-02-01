@@ -1,8 +1,7 @@
 -- этот плагин создает меню которое вызывается при нажатии <leader>
 return {
     "folke/which-key.nvim",
-    config = function()
-        vim.o.timeout = true
+    config = function() vim.o.timeout = true
         vim.o.timeoutlen = 300
         local wk = require("which-key")
         wk.register({
@@ -19,14 +18,16 @@ return {
                     h = { "<cmd>Telescope help_tags<cr>", "Help Tags" },
                 },
                 c = {
-                    name = "Code",
+                    name = "Code/Chat",
                     a = { vim.lsp.buf.code_action, "Action" },
                     g = { "<cmd>ChatGPT<CR>", "ChatGPT" },
                 },
                 g = {
-                    name = "GO",
+                    name = "GO/Git",
                     f = { vim.lsp.buf.format, "Go Format" },
                     d = { vim.lsp.buf.definition, "Go Definition" },
+                    p = "Git Preview",
+                    t = "Git Blame",
                 },
                 d = {
                     name = "DAP",
