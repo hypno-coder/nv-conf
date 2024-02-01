@@ -1,6 +1,8 @@
 return {
     "mfussenegger/nvim-dap",
+
     dependencies = {
+
         "rcarriga/nvim-dap-ui",
         "mfussenegger/nvim-dap-python",
         "microsoft/vscode-js-debug",
@@ -13,7 +15,7 @@ return {
         dap.adapters.node2 = {
             type = "executable",
             command = "node",
-            args = {"/path/to/js-debug/src/dapDebugServer.js", "${port}"},
+            args = { "/path/to/js-debug/src/dapDebugServer.js", "${port}" },
         }
 
         dap.configurations.typescript = {
