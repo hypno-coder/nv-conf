@@ -38,6 +38,11 @@ return {
 					B = "Set Breakpoint",
 					c = "Continue",
 				},
+        t = {
+					name = "Terminal",
+          f = "Float Terminal",
+          h = "Horizontal Terminal"
+        }
 			},
 		})
 	end,

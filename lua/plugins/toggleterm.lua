@@ -3,6 +3,7 @@ return {
 	version = "*",
 	config = function()
 		require("toggleterm").setup({
+      persist_mode = true,
 			shade_terminals = true,
       shell = "/opt/homebrew/bin/fish",
 			shading_factor = 50,
