@@ -7,7 +7,6 @@ return {
 		local wk = require("which-key")
 		wk.register({
 			["<leader>"] = {
-        ["/"] = "Comment out",
         q = "Quit",
         w = "Write",
 				e = { ":Neotree float focus<CR>", "File System" },
