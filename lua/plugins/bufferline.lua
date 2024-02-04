@@ -19,7 +19,7 @@ return {
 					icon = "  ",
 					style = "icon",
 				},
-				separator_style = "slope",
+				separator_style = "gradient",
 			},
 		})
 	end,
