@@ -9,6 +9,7 @@ vim.keymap.set('n', '<leader>/', ':CommentToggle<CR>')
 
 -- Russian nvim layout
 vim.api.nvim_command('set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz')
+vim.keymap.set('i', 'оо', 'jj')
 
 -- Terminal
 vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>')
