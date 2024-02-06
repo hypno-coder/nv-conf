@@ -7,8 +7,8 @@ return {
 		local wk = require("which-key")
 		wk.register({
 			["<leader>"] = {
-        q = "Quit",
-        w = "Write",
+				q = "Quit",
+				w = "Write",
 				e = { ":Neotree float focus<CR>", "File System" },
 				o = { ":Neotree float git_status<CR>", "Git Status" },
 				K = { vim.lsp.buf.hover, "Hover Cursor" },
@@ -21,13 +21,12 @@ return {
 				},
 				c = {
 					name = "Code/Chat",
-					a = { vim.lsp.buf.code_action, "Action" },
-					g = { "<cmd>ChatGPT<CR>", "ChatGPT" },
+					g = { "<cmd>ChatGPT<CR>", "ChatGPT Start" },
 				},
 				g = {
 					name = "GO/Git",
-					f = { vim.lsp.buf.format, "Go Format" },
-					d = { vim.lsp.buf.definition, "Go Definition" },
+					d = "Go Definition",
+					r = "Go References",
 					p = "Git Preview",
 					b = "Git Blame",
 				},
@@ -37,11 +36,20 @@ return {
 					B = "Set Breakpoint",
 					c = "Continue",
 				},
-        t = {
+				t = {
 					name = "Terminal",
-          f = "Float Terminal",
-          h = "Horizontal Terminal"
-        }
+					f = "Float Terminal",
+					h = "Horizontal Terminal",
+				},
+
+				l = {
+					name = "LSP",
+					d = "Diagnostic",
+					D = "Hover diagnostic",
+					f = "Format",
+					r = "Rename",
+					a = "Action",
+				},
 			},
 		})
 	end,

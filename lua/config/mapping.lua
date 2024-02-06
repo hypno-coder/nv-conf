@@ -14,6 +14,19 @@ vim.keymap.set('i', 'оо', 'jj')
 vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>')
 vim.keymap.set('n', '<leader>th', ':ToggleTerm direction=horizontal<CR>')
 
+
+-- LSP
+vim.keymap.set('n', '<leader>ld', vim.diagnostic.setloclist)
+vim.keymap.set('n', '<leader>lD', vim.diagnostic.open_float)
+vim.keymap.set('n', '<Leader>lf', function() vim.lsp.buf.format {async = true} end, {})
+vim.keymap.set('n', '<Leader>lr', vim.lsp.buf.rename, {})
+vim.keymap.set({'n', 'v'}, '<Leader>la', vim.lsp.buf.code_action, {})
+vim.keymap.set('n', '<Leader>gr', vim.lsp.buf.references, {})
+vim.keymap.set('n', '<Leader>gd', vim.lsp.buf.definition, {})
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
+
+
 -- Buffer
 vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<s-Tab>', ':BufferLineCyclePrev<CR>')
