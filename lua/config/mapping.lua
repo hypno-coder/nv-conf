@@ -32,6 +32,7 @@ vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<s-Tab>', ':BufferLineCyclePrev<CR>')
 vim.keymap.set('n', '<S-l>', ':bnext<cr>')
 vim.keymap.set('n', '<S-h>', ':bprev<cr>')
+vim.keymap.set('n', '<Leader>x', ':bdelete<cr>')
 
 
 -- Splits

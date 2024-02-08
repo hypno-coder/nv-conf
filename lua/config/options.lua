@@ -32,6 +32,9 @@ vim.opt.clipboard = "unnamedplus"
 -- Shorter messages
 vim.opt.shortmess:append("c")
 
+-- Swap files
+vim.opt.swapfile = false
+
 -- Indent Settings
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
