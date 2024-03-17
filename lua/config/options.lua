@@ -8,7 +8,7 @@ vim.opt.showmode = false
 vim.opt.updatetime = 100
 vim.wo.signcolumn = "yes"
 vim.opt.scrolloff = 8
-vim.opt.wrap = false
+vim.opt.showcmd = true
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true
@@ -36,11 +36,16 @@ vim.opt.shortmess:append("c")
 vim.opt.swapfile = false
 
 -- Indent Settings
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.autoindent = true
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
 vim.opt.softtabstop = 4
 vim.opt.smartindent = true
+
+-- line wrapping
+vim.opt.wrap = true
+vim.opt.linebreak = true
 
 -- Fillchars
 vim.opt.fillchars = {

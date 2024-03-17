@@ -13,7 +13,7 @@ return {
 				border = "double",
 				width = 100,
 				height = 30,
-				winblend = 20,
+				winblend = 10,
 				highlights = {
 					border = "Blue",
 					background = "Cyan",
