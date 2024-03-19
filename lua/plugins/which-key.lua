@@ -53,23 +53,22 @@ return {
                 n = {
                     name = 'Notes ( Obsidian )',
                     o = 'Open in Obsidian',
-                    n = 'Create new note [TITLE]',
+                    n = 'Create new note',
                     v = 'Open link in vsplit',
                     h = 'Open link in hsplit',
-                    t = 'Use template [NAME]',
+                    t = 'Use template',
                     w = 'Workspace switch',
                     f = {
                         name = 'Find',
                         b = 'Backlinks',
-                        t = 'Tag occurances [TAG]',
-                        n = 'Note by name, or create new [TITLE]',
+                        t = 'Tag occurances',
+                        n = 'Note by name, or create new',
                     },
                     l = {
                         name = 'Link',
-                        c = 'Create a new note  and link to selected [TITLE]',
-                        l = 'Link existing note to selection',
+                        c = { 'Create a new note  and link to selected', mode = 'v' },
+                        l = { 'Link existing note to selection', mode = 'v' },
                         i = 'Image from clipboard',
-
 
                     }
                 },
