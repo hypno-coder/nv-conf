@@ -1,8 +1,7 @@
-WELCOME_MESSAGE = [[
+WELCOME_MESSAGE = [[ 
 
-     If you don't ask the right questions,
-        you don't get the right answers.
-                                      ~ Robert Half
+    Hello Mutherfukers!
+
 ]]
 
 local defaults = {
