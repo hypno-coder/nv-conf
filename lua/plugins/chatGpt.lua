@@ -1,11 +1,11 @@
 WELCOME_MESSAGE = [[ 
 
-    Hello Mutherfukers!
+    Hello mutherfukers!
 
 ]]
 
 local defaults = {
-	api_key_cmd = "echo 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",
+	api_key_cmd = "echo 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",
 	yank_register = "+",
 	edit_with_instructions = {
 		diff = false,

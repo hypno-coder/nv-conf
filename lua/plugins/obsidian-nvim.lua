@@ -1,3 +1,5 @@
+local user_settings = require("config.user_settings")
+local user = user_settings.env.user
 return {
     "epwalsh/obsidian.nvim",
     version = "*", -- recommended, use latest release instead of latest commit
@@ -20,14 +22,10 @@ return {
     opts = {
         workspaces = {
             {
-                name = "damir",
-                path = "~/Documents/ZettelKasten",
+                name = user,
+                path = user == "artur" and "~/Documents/LogicLogs" or "~/Documents/ZettelKasten",
             },
-            {
-                name = 'artur',
-                path = '',
-            }
-            -- {
+                        -- {
             --   name = "work",
             --   path = "~/vaults/work",
             -- },
