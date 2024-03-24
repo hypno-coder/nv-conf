@@ -1,6 +1,8 @@
 local function getEnv()
     local env = {}
-    for line in io.lines("/Users/arturdavidov/.config/nvim/.env") do
+    local script_dir = debug.getinfo(1, "S").source:match("@(.*/)")
+    local path = script_dir ..".env"
+    for line in io.lines(path) do
         local key, value = line:match("^%s*(.-)%s*=%s*(.-)%s*$")
         if key and value then
             env[key] = value
