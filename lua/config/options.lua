@@ -1,3 +1,6 @@
+local user_settings = require("config.user_settings")
+local theme = user_settings.env.theme
+
 vim.wo.number = true
 vim.wo.relativenumber = true
 
@@ -61,4 +64,4 @@ vim.opt.fillchars = {
 
 vim.cmd([[highlight clear LineNr]])
 vim.cmd([[highlight clear SignColumn]])
-vim.cmd.colorscheme("solarized-osaka") -- установить дефолтную тему
+vim.cmd.colorscheme(theme) -- установить дефолтную тему

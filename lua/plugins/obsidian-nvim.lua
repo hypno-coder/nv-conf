@@ -1,5 +1,7 @@
 local user_settings = require("config.user_settings")
+local vaultPath = user_settings.env.vaultPath
 local user = user_settings.env.user
+
 return {
     "epwalsh/obsidian.nvim",
     version = "*", -- recommended, use latest release instead of latest commit
@@ -23,7 +25,7 @@ return {
         workspaces = {
             {
                 name = user,
-                path = user == "artur" and "~/Documents/LogicLogs" or "~/Documents/ZettelKasten",
+                path = vaultPath,
             },
                         -- {
             --   name = "work",
