@@ -50,12 +50,6 @@ return {
             },
         },
         open_app_foreground = true,
-        templates = {
-            subdir = "templates",
-            date_format = "%Y-%m-%d",
-            time_format = "%H:%M",
-            substitutions = {},
-        },
         note_id_func = function(title)
             local suffix = ""
             if title ~= nil then
