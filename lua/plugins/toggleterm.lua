@@ -1,3 +1,14 @@
+
+-- Описание:
+-- Мощный плагин для интеграции терминала в Neovim. Позволяет запускать встроенные терминалы в разных режимах: float, horizontal, vertical, tab.
+
+-- 📌 Инструкция по использованию:
+-- 	•	Ctrl+\ — открыть/закрыть терминал (согласно open_mapping)
+-- 	•	Внутри терминала:
+-- 	•	jk или Esc — выйти в нормальный режим
+-- 	•	Ctrl + h/j/k/l — перемещаться между окнами
+-- 	•	Ctrl + w — перейти в управление окнами
+
 return {
 	"akinsho/toggleterm.nvim",
 	version = "*",
@@ -13,7 +24,7 @@ return {
 				border = "double",
 				width = 100,
 				height = 30,
-				winblend = 10,
+				winblend = 5,
 				highlights = {
 					border = "Blue",
 					background = "Cyan",

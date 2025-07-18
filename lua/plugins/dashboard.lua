@@ -1,3 +1,5 @@
+-- Dashboard — плагин для кастомного стартового экрана в Neovim.
+
 return {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",

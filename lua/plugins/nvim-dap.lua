@@ -1,8 +1,20 @@
+-- Описание:
+-- Это основной фреймворк отладки (Debug Adapter Protocol) для Neovim. Он позволяет запускать и управлять сессиями отладки прямо из редактора.
+
+-- Инструкция по использованию:
+
+-- 📌 Основные клавиши:
+-- 	•	<Leader>db — поставить/снять брейкпоинт
+-- 	•	<Leader>dB — поставить брейкпоинт с условием
+-- 	•	<Leader>dc — продолжить выполнение программы
+
+-- НАВЕРНО НУЖНО ДОРАБОТАТЬ:
+
 return {
     "mfussenegger/nvim-dap",
 
     dependencies = {
-
+        "nvim-neotest/nvim-nio",
         "rcarriga/nvim-dap-ui",
         "mfussenegger/nvim-dap-python",
         "microsoft/vscode-js-debug",

@@ -1,3 +1,5 @@
+-- настрйка тем для Neovim
+
 return {
 	{
 		"catppuccin/nvim",

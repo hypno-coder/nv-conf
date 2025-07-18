@@ -6,6 +6,7 @@ vim.wo.relativenumber = true
 
 vim.g.did_load_filetypes = 1
 
+vim.opt.termguicolors = true
 vim.g.formatoptions = "qrn1"
 vim.opt.showmode = false
 vim.opt.updatetime = 100
@@ -65,3 +66,5 @@ vim.opt.fillchars = {
 vim.cmd([[highlight clear LineNr]])
 vim.cmd([[highlight clear SignColumn]])
 vim.cmd.colorscheme(theme) -- установить дефолтную тему
+
+vim.cmd([[highlight Visual guibg=#add8e6 guifg=NONE]])
