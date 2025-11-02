@@ -11,15 +11,25 @@ return {
 
     null_ls.setup({
       sources = {
+        -- Lua
         null_ls.builtins.formatting.stylua,
-        -- null_ls.builtins.formatting.eslint,
-        -- null_ls.builtins.diagnostics.eslint_d,
+
+        -- Python
         null_ls.builtins.formatting.black,
         null_ls.builtins.formatting.isort,
+
+        -- Web
         null_ls.builtins.formatting.prettierd,
+
+        -- Go
+        null_ls.builtins.formatting.goimports,
+        -- null_ls.builtins.formatting.gofmt, -- можешь включить, если хочешь просто gofmt
+        -- null_ls.builtins.diagnostics.revive, -- линтер от go
+
+        -- Пример доп. линтера
+        -- null_ls.builtins.diagnostics.staticcheck,
       },
     })
   end,
 }
-
 

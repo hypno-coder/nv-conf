@@ -15,6 +15,7 @@ return {
 
     dependencies = {
         "nvim-neotest/nvim-nio",
+        "leoluz/nvim-dap-go",
         "rcarriga/nvim-dap-ui",
         "mfussenegger/nvim-dap-python",
         "microsoft/vscode-js-debug",
@@ -23,6 +24,7 @@ return {
         local dap, dapui = require("dap"), require("dapui")
         require("dapui").setup()
         require("dap-python").setup()
+        require("dap-go").setup()
 
         dap.adapters.node2 = {
             type = "executable",

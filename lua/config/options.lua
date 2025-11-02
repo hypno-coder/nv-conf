@@ -33,6 +33,10 @@ vim.opt.splitright = true
 -- Clipboard
 vim.opt.clipboard = "unnamedplus"
 
+-- Search Settings
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 -- Shorter messages
 vim.opt.shortmess:append("c")
 
@@ -67,4 +71,4 @@ vim.cmd([[highlight clear LineNr]])
 vim.cmd([[highlight clear SignColumn]])
 vim.cmd.colorscheme(theme) -- установить дефолтную тему
 
-vim.cmd([[highlight Visual guibg=#add8e6 guifg=NONE]])
+-- vim.cmd([[highlight Visual guibg=#add8e6 guifg=NONE]])

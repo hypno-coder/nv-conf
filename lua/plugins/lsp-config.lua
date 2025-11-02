@@ -3,79 +3,45 @@
 -- в mason-lspconfig мы указываем какие lsp установить
 -- а в nvim-lspconfig мы активируем эти slp, и они начинают общатся с серверами
 return {
-	{
-		"williamboman/mason.nvim",
-		config = function()
-			require("mason").setup()
-		end,
-	},
-	{
-		"williamboman/mason-lspconfig.nvim",
-		config = function()
-			require("mason-lspconfig").setup({
-				ensure_installed = {
-					"lua_ls",
-					"ts_ls",
-					"pyright",
-                    -- "ruff",
-					"rust_analyzer",
-					"dockerls",
-					"docker_compose_language_service",
-					"sqlls",
-					"cssls",
-					"stylelint_lsp",
-					"jsonls",
-					"tailwindcss",
-					"prismals",
-				},
-			})
-		end,
-	},
-	{
-		"neovim/nvim-lspconfig",
-		lazy = false,
-		config = function()
-			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			local lspconfig = require("lspconfig")
-			lspconfig.lua_ls.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.ts_ls.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.pyright.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.rust_analyzer.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.dockerls.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.docker_compose_language_service.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.sqlls.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.cssls.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.stylelint_lsp.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.jsonls.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.tailwindcss.setup({
-				capabilities = capabilities,
-			})
-			lspconfig.prismals.setup({
-				capabilities = capabilities,
-			})
-            -- lspconfig.ruff.setup({
-				-- capabilities = capabilities,
-			-- })
-		end,
-	},
+    {
+        "williamboman/mason.nvim",
+        config = function()
+            require("mason").setup()
+        end,
+    },
+    {
+        "williamboman/mason-lspconfig.nvim",
+        config = function()
+            require("mason-lspconfig").setup({
+                ensure_installed = {
+                    "lua_ls",
+                    "pyright",
+                    "dockerls",
+                    "docker_compose_language_service",
+                    "sqlls",
+                    "cssls",
+                    "stylelint_lsp",
+                    "jsonls",
+                },
+            })
+        end,
+    },
+    {
+        "neovim/nvim-lspconfig",
+        lazy = false,
+        config = function()
+            vim.lsp.config('rust_analyzer', {
+              settings = {
+                ['lua_ls'] = {},
+                ['pyright'] = {},
+                ['dockerls'] = {},
+                ['docker_compose_language_service'] = {},
+                ['sqlls'] = {},
+                ['cssls'] = {},
+                ['stylelint_lsp'] = {},
+                ['jsonls'] = {},
+              },
+            })
+        end,
+    }
 }
