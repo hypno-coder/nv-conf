@@ -16,7 +16,7 @@ vim.opt.showcmd = true
 vim.wo.linebreak = true
 vim.opt.virtualedit = "block"
 vim.opt.undofile = true
-vim.opt.shell = "/opt/homebrew/bin/fish"
+
 
 -- Mouse
 vim.opt.mouse = "a"

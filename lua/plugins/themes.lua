@@ -12,7 +12,7 @@ return {
 					light = "latte",
 					dark = "mocha",
 				},
-				transparent_background = false,
+				transparent_background = true,
 				show_end_of_buffer = false,
 				term_colors = false,
 				dim_inactive = {
@@ -54,13 +54,25 @@ return {
 		name = "solarized-osaka",
 		lazy = false,
 		priority = 1000,
-		opts = {},
+		opts = {
+            transparent = true,
+            styles = {
+                sidebars = "transparent",
+                floats = "transparent",
+            },
+        },
 	},
 	{
 		"folke/tokyonight.nvim",
         name = "tokyonight",
 		lazy = false,
 		priority = 1000,
-		opts = {},
+		opts = {
+            transparent = true,
+            styles = {
+                sidebars = "transparent",
+                floats = "transparent",
+            },
+        },
 	},
 }
