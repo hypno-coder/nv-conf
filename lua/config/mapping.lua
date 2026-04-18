@@ -17,6 +17,7 @@ vim.api.nvim_command(
 -- vim.keymap.set('i', 'оо', 'jj')
 
 -- Terminal
+vim.keymap.set('n', '<leader>t', ':ToggleTerm direction=horizontal<CR>')
 vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>')
 vim.keymap.set('n', '<leader>th', ':ToggleTerm direction=horizontal<CR>')
 

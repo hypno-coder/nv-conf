@@ -57,7 +57,7 @@ return {
             { "<leader>dc", desc = "Continue" },
 
             -- Группа "Terminal"
-            { "<leader>t", group = "Terminal" },
+            { "<leader>t", ":ToggleTerm direction=horizontal<CR>", desc = "Terminal" },
             { "<leader>tf", desc = "Float Terminal" },
             { "<leader>th", desc = "Horizontal Terminal" },
 

@@ -16,7 +16,7 @@ return {
 		require("toggleterm").setup({
       persist_mode = true,
 			shade_terminals = true,
-      shell = "/opt/homebrew/bin/fish",
+      shell = vim.o.shell,
 			shading_factor = 50,
 			open_mapping = [[<c-\>]],
 			direction = "float",
