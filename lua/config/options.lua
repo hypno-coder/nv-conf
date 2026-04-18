@@ -69,4 +69,8 @@ vim.opt.fillchars = {
 
 vim.cmd([[highlight clear LineNr]])
 vim.cmd([[highlight clear SignColumn]])
-vim.cmd.colorscheme(theme) -- установить дефолтную тему
+-- Установить тему, если плагин уже загружен
+local ok, _ = pcall(vim.cmd.colorscheme, theme)
+if not ok then
+    vim.notify("Theme " .. theme .. " not loaded yet. Will be set by plugin config.", vim.log.levels.WARN)
+end
