@@ -1,0 +1,1763 @@
+
+==============================================================================
+dap:                                                                        ✅
+
+dap: Adapters ~
+
+dap.adapter: node2 ~
+- ✅ OK is executable: node
+
+dap.adapter: debugpy ~
+- Adapter is a function. Can't validate it
+
+dap.adapter: go ~
+- Adapter is a function. Can't validate it
+
+dap.adapter: python ~
+- Adapter is a function. Can't validate it
+
+dap: Sessions ~
+- ✅ OK No active sessions
+
+==============================================================================
+hop:                                                                        ✅
+
+Ensuring keys are unique ~
+- ✅ OK Keys are unique
+
+Checking for deprecated features ~
+- ✅ OK All good
+
+==============================================================================
+lazy:                                                                       ✅
+
+lazy.nvim ~
+- {lazy.nvim} version `11.17.5`
+- ✅ OK {git} `version 2.43.0`
+- ✅ OK no existing packages found by other package managers
+- ✅ OK packer_compiled.lua not found
+
+luarocks ~
+- checking `luarocks` installation
+- ✅ OK no plugins require `luarocks`, so you can ignore any warnings below
+- ✅ OK {luarocks} `/bin/luarocks 3.8.0`
+- ✅ OK {lua5.1} `Lua 5.1.5  Copyright (C) 1994-2012 Lua.org, PUC-Rio`
+
+==============================================================================
+lspconfig:                                                                  ✅
+
+- Skipped. This healthcheck is redundant with `:checkhealth vim.lsp`.
+
+==============================================================================
+luasnip:                                                                  1 ⚠️
+
+luasnip ~
+- ⚠️ WARNING For Variable/Placeholder-transformations, luasnip requires
+      the jsregexp library. See `:help |luasnip-lsp-snippets-transformations`| for advice
+  
+
+==============================================================================
+mason:                                                                    8 ⚠️
+
+mason.nvim ~
+- ✅ OK mason.nvim version v2.2.1
+- ✅ OK PATH: prepend
+- ✅ OK Providers: 
+    mason.providers.registry-api
+    mason.providers.client
+- ✅ OK neovim version >= 0.10.0
+
+mason.nvim [Registries] ~
+- ✅ OK Registry `github.com/mason-org/mason-registry version: 2026-05-03-mealy-pants` is installed.
+- ✅ OK Registry `SynthesizedRegistrySource` is installed.
+
+mason.nvim [Core utils] ~
+- ✅ OK unzip: `UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.`
+- ✅ OK wget: `GNU Wget 1.21.4, a non-interactive network retriever.`
+- ✅ OK curl: `curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10`
+- ✅ OK gzip: `gzip 1.12`
+- ✅ OK tar: `tar (GNU tar) 1.35`
+- ✅ OK bash: `GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)`
+
+mason.nvim [Languages] ~
+- ⚠️ WARNING cargo: not available
+  - ADVICE:
+    - spawn: cargo failed with exit code - and signal -. Could not find executable "cargo" in PATH.
+
+- ⚠️ WARNING Ruby: not available
+  - ADVICE:
+    - spawn: ruby failed with exit code - and signal -. Could not find executable "ruby" in PATH.
+
+- ⚠️ WARNING RubyGem: not available
+  - ADVICE:
+    - spawn: gem failed with exit code - and signal -. Could not find executable "gem" in PATH.
+
+- ⚠️ WARNING Composer: not available
+  - ADVICE:
+    - spawn: composer failed with exit code - and signal -. Could not find executable "composer" in PATH.
+
+- ⚠️ WARNING PHP: not available
+  - ADVICE:
+    - spawn: php failed with exit code - and signal -. Could not find executable "php" in PATH.
+
+- ⚠️ WARNING javac: not available
+  - ADVICE:
+    - spawn: javac failed with exit code - and signal -. Could not find executable "javac" in PATH.
+
+- ⚠️ WARNING java: not available
+  - ADVICE:
+    - spawn: java failed with exit code - and signal -. Could not find executable "java" in PATH.
+
+- ⚠️ WARNING julia: not available
+  - ADVICE:
+    - spawn: julia failed with exit code - and signal -. Could not find executable "julia" in PATH.
+
+- ✅ OK python: `Python 3.12.3`
+- ✅ OK node: `v22.22.2`
+- ✅ OK Go: `go version go1.22.2 linux/amd64`
+- ✅ OK luarocks: `/bin/luarocks 3.8.0`
+- ✅ OK npm: `10.9.7`
+- ✅ OK pip: `pip 26.1 from /home/agent/.local/lib/python3.12/site-packages/pip (python 3.12)`
+- ✅ OK python venv: `Ok`
+
+==============================================================================
+mason-lspconfig:                                                            ✅
+
+mason-lspconfig.nvim ~
+- ✅ OK Neovim v0.11
+- ✅ OK mason.nvim v2
+
+==============================================================================
+neo-tree:                                                                   ✅
+
+Dependencies ~
+- ✅ OK nvim-lua/plenary.nvim is installed
+- ✅ OK MunifTanjim/nui.nvim is installed
+
+Optional icons ~
+- ✅ OK nvim-tree/nvim-web-devicons is installed
+
+Optional preview image support (only need one): ~
+- folke/snacks.nvim is not installed
+- 3rd/image.nvim is not installed
+
+Optional LSP integration for commands (like copy/delete/move/etc.) ~
+- antosha417/nvim-lsp-file-operations is not installed
+
+Optional window picker (for _with_window_picker commands) ~
+- s1n7ax/nvim-window-picker is not installed
+
+Configuration ~
+- ✅ OK Configuration conforms to the neotree.Config.Base schema
+
+==============================================================================
+null-ls:                                                                    ✅
+
+- ✅ OK stylua: the command "stylua" is executable.
+- ✅ OK black: the command "black" is executable.
+- ✅ OK isort: the command "isort" is executable.
+- ✅ OK prettierd: the command "prettierd" is executable.
+- ✅ OK goimports: the command "goimports" is executable.
+
+==============================================================================
+nvim-treesitter:                                                          1 ⚠️
+
+Installation ~
+- ⚠️ WARNING `tree-sitter` executable not found (parser generator, only needed for :TSInstallFromGrammar, not required for :TSInstall)
+- ✅ OK `node` found v22.22.2 (only needed for :TSInstallFromGrammar)
+- ✅ OK `git` executable found.
+- ✅ OK `cc` executable found. Selected from { vim.NIL, "cc", "gcc", "clang", "cl", "zig" }
+  Version: cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+- ✅ OK Neovim was compiled with tree-sitter runtime ABI version 15 (required >=13). Parsers must be compatible with runtime ABI.
+
+OS Info:
+{
+  machine = "x86_64",
+  release = "6.8.0-111-generic",
+  sysname = "Linux",
+  version = "#111-Ubuntu SMP PREEMPT_DYNAMIC Sat Apr 11 23:16:02 UTC 2026"
+} ~
+
+Parser/Features         H L F I J
+  - bash                ✓ ✓ ✓ . ✓
+  - c                   ✓ ✓ ✓ ✓ ✓
+  - javascript          ✓ ✓ ✓ ✓ ✓
+  - json                ✓ ✓ ✓ ✓ .
+  - lua                 ✓ ✓ ✓ ✓ ✓
+  - markdown            ✓ . ✓ ✓ ✓
+  - markdown_inline     ✓ . . . ✓
+  - python              ✓ ✓ ✓ ✓ ✓
+  - query               ✓ ✓ ✓ ✓ ✓
+  - vim                 ✓ ✓ ✓ . ✓
+  - vimdoc              ✓ . . . ✓
+
+  Legend: H[ighlight], L[ocals], F[olds], I[ndents], In[j]ections
+         +) multiple parsers found, only one will be used
+         x) errors found in the query, try to run :TSUpdate {lang} ~
+
+==============================================================================
+render-markdown:                                                          7 ⚠️
+
+render-markdown.nvim [versions] ~
+- ✅ OK neovim >= 0.11
+- ✅ OK tree-sitter ABI: 15
+- ✅ OK plugin: 8.12.10
+
+render-markdown.nvim [configuration] ~
+- ✅ OK valid
+
+render-markdown.nvim [tree-sitter markdown] ~
+- ✅ OK parser: installed
+- ✅ OK ABI: 14
+- ✅ OK highlights: ~/.local/share/nvim/lazy/nvim-treesitter/queries/markdown/highlights.scm
+- ✅ OK highlighter: enabled
+
+render-markdown.nvim [tree-sitter markdown_inline] ~
+- ✅ OK parser: installed
+- ✅ OK ABI: 14
+- ✅ OK highlights: ~/.local/share/nvim/lazy/nvim-treesitter/queries/markdown_inline/highlights.scm
+
+render-markdown.nvim [tree-sitter html] ~
+- ⚠️ WARNING parser: not installed
+  - ADVICE:
+    - disable html support to avoid this warning
+    - require('render-markdown').setup({ html = { enabled = false } })
+- ⚠️ WARNING ABI: unknown
+  - ADVICE:
+    - disable html support to avoid this warning
+    - require('render-markdown').setup({ html = { enabled = false } })
+
+render-markdown.nvim [tree-sitter latex] ~
+- ⚠️ WARNING parser: not installed
+  - ADVICE:
+    - disable latex support to avoid this warning
+    - require('render-markdown').setup({ latex = { enabled = false } })
+- ⚠️ WARNING ABI: unknown
+  - ADVICE:
+    - disable latex support to avoid this warning
+    - require('render-markdown').setup({ latex = { enabled = false } })
+
+render-markdown.nvim [tree-sitter yaml] ~
+- ⚠️ WARNING parser: not installed
+  - ADVICE:
+    - disable yaml support to avoid this warning
+    - require('render-markdown').setup({ yaml = { enabled = false } })
+- ⚠️ WARNING ABI: unknown
+  - ADVICE:
+    - disable yaml support to avoid this warning
+    - require('render-markdown').setup({ yaml = { enabled = false } })
+
+render-markdown.nvim [icons] ~
+- ✅ OK using: nvim-web-devicons
+
+render-markdown.nvim [latex] ~
+- ⚠️ WARNING none installed: { "utftex", "latex2text" }
+  - ADVICE:
+    - disable latex support to avoid this warning
+    - require('render-markdown').setup({ latex = { enabled = false } })
+
+render-markdown.nvim [conflicts] ~
+- ✅ OK headlines: not installed
+- ✅ OK markview: not installed
+- ✅ OK obsidian: not installed
+
+==============================================================================
+telescope:                                                                1 ⚠️
+
+Checking for required plugins ~
+- ✅ OK plenary installed.
+- ✅ OK nvim-treesitter installed.
+
+Checking external dependencies ~
+- ✅ OK rg: found ripgrep 14.1.0
+- ⚠️ WARNING fd: not found. Install [sharkdp/fd](https://github.com/sharkdp/fd) for extended capabilities
+
+===== Installed extensions ===== ~
+
+Telescope Extension: `ui-select` ~
+- No healthcheck provided
+
+==============================================================================
+vim.deprecated:                                                             ✅
+
+- ✅ OK No deprecated functions detected
+
+==============================================================================
+vim.health:                                                                 ✅
+
+System Info ~
+- ✅ OK Up to date (0.12.2)
+- Nvim version: `v0.12.2` 
+- Operating system: Linux 6.8.0-111-generic
+- Terminal: unknown
+- $TERM: xterm-256color
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: Release
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+Terminal ~
+- key_backspace (kbs) terminfo entry: `key_backspace=\177`
+- key_dc (kdch1) terminfo entry: `key_dc=\E[3~`
+- $SSH_TTY="/dev/pts/0"
+
+External Tools ~
+- ✅ OK ripgrep 14.1.0 (/bin/rg)
+- ✅ OK vim.ui.open: handler found (xdg-open)
+- ✅ OK git version 2.43.0 (/bin/git)
+- ✅ OK curl 8.5.0 (/bin/curl)
+  curl 8.5.0 (x86_64-pc-linux-gnu) libcurl/8.5.0 OpenSSL/3.0.13 zlib/1.3 brotli/1.1.0 zstd/1.5.5 libidn2/2.3.7 libpsl/0.21.2 (+libidn2/2.3.7) libssh/0.10.6/openssl/zlib nghttp2/1.59.0 librtmp/2.3 OpenLDAP/2.6.10
+  Release-Date: 2023-12-06, security patched: 8.5.0-2ubuntu10.8
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp
+  Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM PSL SPNEGO SSL threadsafe TLS-SRP UnixSockets zstd
+
+==============================================================================
+vim.lsp:                                                                  1 ⚠️
+
+- LSP log level : WARN
+- Log path: /home/agent/.local/state/nvim/lsp.log
+- Log size: 0 KB
+
+vim.lsp: Active Features ~
+
+vim.lsp: Active Clients ~
+- No active clients
+
+vim.lsp: Enabled Configurations ~
+- cssls:
+  - cmd: <function @/home/agent/.local/share/nvim/lazy/nvim-lspconfig/lsp/cssls.lua:25>
+  - filetypes: css, scss, less
+  - init_options: {
+      provideFormatter = true
+    }
+  - root_markers: { "package.json", ".git" }
+  - settings: {
+      css = {
+        lint = {
+          unknownAtRules = "ignore"
+        },
+        validate = true
+      },
+      less = {
+        lint = {
+          unknownAtRules = "ignore"
+        },
+        validate = true
+      },
+      scss = {
+        lint = {
+          unknownAtRules = "ignore"
+        },
+        validate = true
+      }
+    }
+
+- ⚠️ WARNING Unknown filetype 'yaml.docker-compose' (Hint: filename extension != filetype).
+- docker_compose_language_service:
+  - cmd: { "docker-compose-langserver", "--stdio" }
+  - filetypes: yaml.docker-compose
+  - root_markers: { "docker-compose.yaml", "docker-compose.yml", "compose.yaml", "compose.yml" }
+
+- dockerls:
+  - cmd: { "docker-langserver", "--stdio" }
+  - filetypes: dockerfile
+  - root_markers: { "Dockerfile" }
+  - settings: {
+      docker = {
+        languageserver = {
+          diagnostics = {
+            deprecatedMaintainer = "ignore",
+            instructionJSONInSingleQuotes = "error"
+          },
+          formatter = {
+            ignoreMultilineInstructions = false
+          }
+        }
+      }
+    }
+
+- jsonls:
+  - cmd: <function @/home/agent/.local/share/nvim/lazy/nvim-lspconfig/lsp/jsonls.lua:26>
+  - filetypes: json, jsonc
+  - init_options: {
+      provideFormatter = true
+    }
+  - root_markers: { ".git" }
+  - settings: {
+      json = {
+        format = {
+          enable = true
+        },
+        validate = {
+          enable = true
+        }
+      }
+    }
+
+- lua_ls:
+  - cmd: { "lua-language-server" }
+  - filetypes: lua
+  - root_markers: { { ".emmyrc.json", ".luarc.json", ".luarc.jsonc" }, { ".luacheckrc", ".stylua.toml", "stylua.toml", "selene.toml", "selene.yml" }, { ".git" } }
+  - settings: {
+      Lua = {
+        codeLens = {
+          enable = true
+        },
+        diagnostics = {
+          globals = { "vim" }
+        },
+        hint = {
+          enable = true,
+          semicolon = "Disable"
+        },
+        runtime = {
+          version = "LuaJIT"
+        },
+        telemetry = {
+          enable = false
+        },
+        workspace = {
+          checkThirdParty = false,
+          library = { "/home/agent/.config/nvim", "/home/agent/.local/share/nvim/lazy/lazy.nvim", "/home/agent/.local/share/nvim/lazy/nvim-lspconfig", "/home/agent/.local/share/nvim/lazy/vscode-js-debug", "/home/agent/.local/share/nvim/lazy/nvim-dap-python", "/home/agent/.local/share/nvim/lazy/nvim-dap-ui", "/home/agent/.local/share/nvim/lazy/nvim-dap-go", "/home/agent/.local/share/nvim/lazy/nvim-nio", "/home/agent/.local/share/nvim/lazy/nvim-dap", "/home/agent/.local/share/nvim/lazy/vim-fugitive", "/home/agent/.local/share/nvim/lazy/toggleterm.nvim", "/home/agent/.local/share/nvim/lazy/which-key.nvim", "/home/agent/.local/share/nvim/lazy/mason.nvim", "/home/agent/.local/share/nvim/lazy/telescope-ui-select.nvim", "/home/agent/.local/share/nvim/lazy/none-ls.nvim", "/home/agent/.local/share/nvim/lazy/nui.nvim", "/home/agent/.local/share/nvim/lazy/neo-tree.nvim", "/home/agent/.local/share/nvim/lazy/plenary.nvim", "/home/agent/.local/share/nvim/lazy/telescope.nvim", "/home/agent/.local/share/nvim/lazy/vim-surround", "/home/agent/.local/share/nvim/lazy/nvim-comment", "/home/agent/.local/share/nvim/lazy/hop.nvim", "/home/agent/.local/share/nvim/lazy/bufferline.nvim", "/home/agent/.local/share/nvim/lazy/vim-css-color", "/home/agent/.local/share/nvim/lazy/nvim-ts-autotag", "/home/agent/.local/share/nvim/lazy/nvim-web-devicons", "/home/agent/.local/share/nvim/lazy/nvim-treesitter", "/home/agent/.local/share/nvim/lazy/render-markdown.nvim", "/home/agent/.local/share/nvim/lazy/tokyonight", "/home/agent/.local/share/nvim/lazy/solarized-osaka", "/home/agent/.local/share/nvim/lazy/catppuccin", "/tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime", "/tmp/.mount_nvimOjbJHf/usr/lib/nvim", "/home/agent/.local/state/nvim/lazy/readme", "/home/agent/.local/share/nvim/lazy/vim-css-color/after", "/home/agent/.local/share/nvim/lazy/catppuccin/after" }
+        }
+      }
+    }
+
+- pyright:
+  - cmd: { "pyright-langserver", "--stdio" }
+  - filetypes: python
+  - on_attach: <function @/home/agent/.local/share/nvim/lazy/nvim-lspconfig/lsp/pyright.lua:47>
+  - root_markers: { "pyrightconfig.json", "pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", "Pipfile", ".git" }
+  - settings: {
+      python = {
+        analysis = {
+          autoSearchPaths = true,
+          diagnosticMode = "workspace",
+          typeCheckingMode = "basic",
+          useLibraryCodeForTypes = true
+        }
+      }
+    }
+
+- sqlls:
+  - cmd: { "sql-language-server", "up", "--method", "stdio" }
+  - filetypes: sql, mysql
+  - root_markers: { ".sqllsrc.json" }
+  - settings: {
+      sqlLanguageServer = {
+        connections = { {
+            adapter = "mysql",
+            database = "my_database",
+            host = "127.0.0.1",
+            name = "LocalMySQL",
+            password = "secret",
+            port = 3306,
+            user = "root"
+          } },
+        lint = {
+          rules = {
+            ["align-column-to-the-first"] = "error",
+            ["linebreak-after-clause-keyword"] = "off",
+            ["reserved-word-case"] = { "error", "upper" }
+          }
+        }
+      }
+    }
+
+- stylelint_lsp:
+  - cmd: { "stylelint-language-server", "--stdio" }
+  - filetypes: astro, css, html, less, scss, vue
+  - on_attach: <function @/home/agent/.local/share/nvim/lazy/nvim-lspconfig/lsp/stylelint_lsp.lua:73>
+  - root_dir: <function @/home/agent/.local/share/nvim/lazy/nvim-lspconfig/lsp/stylelint_lsp.lua:35>
+  - settings: {
+      stylelint = {
+        customSyntax = "postcss-scss",
+        ignoreDisables = false,
+        snippet = { "css", "postcss" },
+        validate = { "css", "scss", "less" }
+      }
+    }
+
+- stylua:
+  - cmd: { "stylua", "--lsp" }
+  - filetypes: lua
+  - root_markers: { ".stylua.toml", "stylua.toml", ".editorconfig" }
+
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No active clients
+
+==============================================================================
+vim.pack:                                                                   ✅
+
+vim.pack: basics ~
+- ✅ OK `vim.pack` is not used
+
+==============================================================================
+vim.provider:                                                             6 ⚠️
+
+Clipboard (optional) ~
+- ⚠️ WARNING No clipboard tool found. Clipboard registers (`"+` and `"*`) will not work.
+  - ADVICE:
+    - :help |clipboard|
+
+Node.js provider (optional) ~
+- Node.js: 22.22.2
+- ⚠️ WARNING Missing "neovim" npm (or yarn, pnpm) package.
+  - ADVICE:
+    - Run in shell: npm install -g neovim
+    - Run in shell (if you use yarn): yarn global add neovim
+    - Run in shell (if you use pnpm): pnpm install -g neovim
+    - You may disable this provider (and warning) by adding `let g:loaded_node_provider = 0` to your init.vim
+
+Perl provider (optional) ~
+- ⚠️ WARNING "Neovim::Ext" cpan module is not installed
+  - ADVICE:
+    - See :help |provider-perl| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_perl_provider = 0` to your init.vim
+- ⚠️ WARNING No usable perl executable found
+
+Python 3 provider (optional) ~
+- `g:python3_host_prog` is not set. Searching for python3 in the environment.
+- Executable: /bin/python3
+- Python version: 3.12.3
+- pynvim version: 0.5.0 (outdated; from /usr/lib/python3/dist-packages/neovim)
+- ⚠️ WARNING Latest pynvim is NOT installed: 0.6.0
+
+Python virtualenv ~
+- ✅ OK no $VIRTUAL_ENV
+
+Ruby provider (optional) ~
+- ⚠️ WARNING `ruby` and `gem` must be in $PATH.
+  - ADVICE:
+    - Install Ruby and verify that `ruby` and `gem` commands work.
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: bash                      ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/bash.so
+- ✅ OK Parser: c                         ABI: 15, path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/c.so
+- ✅ OK Parser: javascript                ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/javascript.so
+- ✅ OK Parser: json                      ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/json.so
+- ✅ OK Parser: lua                       ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/lua.so
+- ✅ OK Parser: lua                  (not loaded), path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/lua.so
+- ✅ OK Parser: markdown                  ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/markdown.so
+- ✅ OK Parser: markdown             (not loaded), path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/markdown.so
+- ✅ OK Parser: markdown_inline           ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/markdown_inline.so
+- ✅ OK Parser: markdown_inline      (not loaded), path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/markdown_inline.so
+- ✅ OK Parser: python                    ABI: 14, path: /home/agent/.local/share/nvim/lazy/nvim-treesitter/parser/python.so
+- ✅ OK Parser: query                     ABI: 15, path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/query.so
+- ✅ OK Parser: vim                       ABI: 15, path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/vim.so
+- ✅ OK Parser: vimdoc                    ABI: 15, path: /tmp/.mount_nvimOjbJHf/usr/lib/nvim/parser/vimdoc.so
+
+Treesitter queries ~
+- ✅ OK ada             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ada
+- ✅ OK ada             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ada
+- ✅ OK ada             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ada
+- ✅ OK ada             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ada
+- ✅ OK agda            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/agda
+- ✅ OK agda            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/agda
+- ✅ OK agda            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/agda
+- ✅ OK angular         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/angular
+- ✅ OK angular         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/angular
+- ✅ OK angular         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/angular
+- ✅ OK angular         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/angular
+- ✅ OK angular         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/angular
+- ✅ OK apex            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/apex
+- ✅ OK apex            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/apex
+- ✅ OK apex            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/apex
+- ✅ OK apex            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/apex
+- ✅ OK arduino         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/arduino
+- ✅ OK arduino         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/arduino
+- ✅ OK arduino         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/arduino
+- ✅ OK arduino         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/arduino
+- ✅ OK arduino         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/arduino
+- ✅ OK asm             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/asm
+- ✅ OK asm             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/asm
+- ✅ OK astro           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/astro
+- ✅ OK astro           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/astro
+- ✅ OK astro           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/astro
+- ✅ OK astro           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/astro
+- ✅ OK astro           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/astro
+- ✅ OK authzed         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/authzed
+- ✅ OK authzed         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/authzed
+- ✅ OK awk             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/awk
+- ✅ OK awk             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/awk
+- ✅ OK bash            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bash
+- ✅ OK bash            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bash
+- ✅ OK bash            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bash
+- ✅ OK bash            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bash
+- ✅ OK bass            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bass
+- ✅ OK bass            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bass
+- ✅ OK bass            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bass
+- ✅ OK bass            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bass
+- ✅ OK bass            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bass
+- ✅ OK beancount       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/beancount
+- ✅ OK beancount       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/beancount
+- ✅ OK beancount       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/beancount
+- ✅ OK bibtex          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bibtex
+- ✅ OK bibtex          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bibtex
+- ✅ OK bibtex          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bibtex
+- ✅ OK bibtex          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bibtex
+- ✅ OK bicep           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bicep
+- ✅ OK bicep           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bicep
+- ✅ OK bicep           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bicep
+- ✅ OK bicep           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bicep
+- ✅ OK bicep           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bicep
+- ✅ OK bitbake         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bitbake
+- ✅ OK blade           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/blade
+- ✅ OK blade           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/blade
+- ✅ OK blade           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/blade
+- ✅ OK blade           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/blade
+- ✅ OK blueprint       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/blueprint
+- ✅ OK blueprint       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/blueprint
+- ✅ OK bp              folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bp
+- ✅ OK bp              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bp
+- ✅ OK bp              indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bp
+- ✅ OK bp              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bp
+- ✅ OK bp              locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/bp
+- ✅ OK brightscript    folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/brightscript
+- ✅ OK brightscript    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/brightscript
+- ✅ OK brightscript    indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/brightscript
+- ✅ OK brightscript    injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/brightscript
+- ✅ OK c               folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c
+- ✅ OK c               folds           /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/c
+- ✅ OK c               highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c
+- ✅ OK c               highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/c
+- ✅ OK c               indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c
+- ✅ OK c               injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c
+- ✅ OK c               injections      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/c
+- ✅ OK c               locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c
+- ✅ OK c_sharp         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c_sharp
+- ✅ OK c_sharp         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c_sharp
+- ✅ OK c_sharp         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c_sharp
+- ✅ OK c_sharp         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/c_sharp
+- ✅ OK caddy           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/caddy
+- ✅ OK caddy           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/caddy
+- ✅ OK caddy           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/caddy
+- ✅ OK caddy           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/caddy
+- ✅ OK cairo           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cairo
+- ✅ OK cairo           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cairo
+- ✅ OK cairo           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cairo
+- ✅ OK cairo           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cairo
+- ✅ OK cairo           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cairo
+- ✅ OK capnp           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/capnp
+- ✅ OK capnp           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/capnp
+- ✅ OK capnp           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/capnp
+- ✅ OK capnp           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/capnp
+- ✅ OK capnp           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/capnp
+- ✅ OK chatito         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/chatito
+- ✅ OK chatito         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/chatito
+- ✅ OK chatito         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/chatito
+- ✅ OK chatito         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/chatito
+- ✅ OK chatito         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/chatito
+- ✅ OK circom          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/circom
+- ✅ OK circom          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/circom
+- ✅ OK circom          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/circom
+- ✅ OK circom          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/circom
+- ✅ OK clojure         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/clojure
+- ✅ OK clojure         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/clojure
+- ✅ OK clojure         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/clojure
+- ✅ OK clojure         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/clojure
+- ✅ OK cmake           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cmake
+- ✅ OK cmake           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cmake
+- ✅ OK cmake           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cmake
+- ✅ OK cmake           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cmake
+- ✅ OK comment         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/comment
+- ✅ OK commonlisp      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/commonlisp
+- ✅ OK commonlisp      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/commonlisp
+- ✅ OK commonlisp      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/commonlisp
+- ✅ OK commonlisp      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/commonlisp
+- ✅ OK cooklang        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cooklang
+- ✅ OK cooklang        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cooklang
+- ✅ OK corn            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/corn
+- ✅ OK corn            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/corn
+- ✅ OK corn            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/corn
+- ✅ OK corn            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/corn
+- ✅ OK corn            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/corn
+- ✅ OK cpon            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpon
+- ✅ OK cpon            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpon
+- ✅ OK cpon            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpon
+- ✅ OK cpon            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpon
+- ✅ OK cpon            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpon
+- ✅ OK cpp             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpp
+- ✅ OK cpp             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpp
+- ✅ OK cpp             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpp
+- ✅ OK cpp             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpp
+- ✅ OK cpp             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cpp
+- ✅ OK css             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/css
+- ✅ OK css             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/css
+- ✅ OK css             highlights      /home/agent/.local/share/nvim/lazy/catppuccin/after/queries/css
+- ✅ OK css             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/css
+- ✅ OK css             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/css
+- ✅ OK csv             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/csv
+- ✅ OK cuda            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cuda
+- ✅ OK cuda            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cuda
+- ✅ OK cuda            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cuda
+- ✅ OK cuda            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cuda
+- ✅ OK cuda            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cuda
+- ✅ OK cue             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cue
+- ✅ OK cue             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cue
+- ✅ OK cue             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cue
+- ✅ OK cue             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cue
+- ✅ OK cue             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cue
+- ✅ OK cylc            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cylc
+- ✅ OK cylc            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cylc
+- ✅ OK cylc            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cylc
+- ✅ OK cylc            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/cylc
+- ✅ OK d               folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/d
+- ✅ OK d               highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/d
+- ✅ OK d               indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/d
+- ✅ OK d               injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/d
+- ✅ OK d               locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/d
+- ✅ OK dart            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dart
+- ✅ OK dart            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dart
+- ✅ OK dart            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dart
+- ✅ OK dart            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dart
+- ✅ OK dart            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dart
+- ✅ OK desktop         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/desktop
+- ✅ OK desktop         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/desktop
+- ✅ OK desktop         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/desktop
+- ✅ OK devicetree      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/devicetree
+- ✅ OK dhall           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dhall
+- ✅ OK dhall           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dhall
+- ✅ OK dhall           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dhall
+- ✅ OK diff            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/diff
+- ✅ OK diff            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/diff
+- ✅ OK diff            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/diff
+- ✅ OK disassembly     highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/disassembly
+- ✅ OK disassembly     injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/disassembly
+- ✅ OK djot            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/djot
+- ✅ OK djot            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/djot
+- ✅ OK djot            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/djot
+- ✅ OK djot            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/djot
+- ✅ OK djot            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/djot
+- ✅ OK dockerfile      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dockerfile
+- ✅ OK dockerfile      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dockerfile
+- ✅ OK dot             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dot
+- ✅ OK dot             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dot
+- ✅ OK dot             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dot
+- ✅ OK doxygen         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/doxygen
+- ✅ OK doxygen         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/doxygen
+- ✅ OK doxygen         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/doxygen
+- ✅ OK dtd             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dtd
+- ✅ OK dtd             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dtd
+- ✅ OK dtd             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dtd
+- ✅ OK dtd             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/dtd
+- ✅ OK earthfile       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/earthfile
+- ✅ OK earthfile       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/earthfile
+- ✅ OK ebnf            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ebnf
+- ✅ OK ebnf            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ebnf
+- ✅ OK ecma            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ecma
+- ✅ OK ecma            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ecma
+- ✅ OK ecma            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ecma
+- ✅ OK ecma            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ecma
+- ✅ OK ecma            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ecma
+- ✅ OK editorconfig    folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/editorconfig
+- ✅ OK editorconfig    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/editorconfig
+- ✅ OK editorconfig    injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/editorconfig
+- ✅ OK eds             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/eds
+- ✅ OK eds             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/eds
+- ✅ OK eex             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/eex
+- ✅ OK eex             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/eex
+- ✅ OK elixir          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elixir
+- ✅ OK elixir          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elixir
+- ✅ OK elixir          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elixir
+- ✅ OK elixir          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elixir
+- ✅ OK elixir          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elixir
+- ✅ OK elm             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elm
+- ✅ OK elm             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elm
+- ✅ OK elm             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elm
+- ✅ OK elsa            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elsa
+- ✅ OK elsa            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elsa
+- ✅ OK elsa            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elsa
+- ✅ OK elsa            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elsa
+- ✅ OK elsa            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elsa
+- ✅ OK elvish          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elvish
+- ✅ OK elvish          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/elvish
+- ✅ OK embedded_template highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/embedded_template
+- ✅ OK embedded_template injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/embedded_template
+- ✅ OK enforce         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/enforce
+- ✅ OK enforce         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/enforce
+- ✅ OK enforce         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/enforce
+- ✅ OK enforce         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/enforce
+- ✅ OK enforce         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/enforce
+- ✅ OK erlang          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/erlang
+- ✅ OK erlang          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/erlang
+- ✅ OK erlang          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/erlang
+- ✅ OK facility        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/facility
+- ✅ OK facility        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/facility
+- ✅ OK facility        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/facility
+- ✅ OK facility        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/facility
+- ✅ OK faust           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/faust
+- ✅ OK faust           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/faust
+- ✅ OK fennel          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fennel
+- ✅ OK fennel          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fennel
+- ✅ OK fennel          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fennel
+- ✅ OK fennel          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fennel
+- ✅ OK fidl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fidl
+- ✅ OK fidl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fidl
+- ✅ OK fidl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fidl
+- ✅ OK firrtl          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/firrtl
+- ✅ OK fish            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fish
+- ✅ OK fish            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fish
+- ✅ OK fish            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fish
+- ✅ OK fish            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fish
+- ✅ OK fish            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fish
+- ✅ OK foam            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/foam
+- ✅ OK foam            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/foam
+- ✅ OK foam            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/foam
+- ✅ OK foam            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/foam
+- ✅ OK foam            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/foam
+- ✅ OK forth           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/forth
+- ✅ OK forth           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/forth
+- ✅ OK forth           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/forth
+- ✅ OK forth           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/forth
+- ✅ OK forth           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/forth
+- ✅ OK fortran         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fortran
+- ✅ OK fortran         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fortran
+- ✅ OK fortran         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fortran
+- ✅ OK fortran         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fortran
+- ✅ OK fsh             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fsh
+- ✅ OK fsh             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fsh
+- ✅ OK fsharp          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fsharp
+- ✅ OK fsharp          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fsharp
+- ✅ OK func            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/func
+- ✅ OK func            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/func
+- ✅ OK fusion          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fusion
+- ✅ OK fusion          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fusion
+- ✅ OK fusion          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fusion
+- ✅ OK fusion          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fusion
+- ✅ OK fusion          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/fusion
+- ✅ OK gap             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gap
+- ✅ OK gap             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gap
+- ✅ OK gap             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gap
+- ✅ OK gap             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gap
+- ✅ OK gaptst          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gaptst
+- ✅ OK gaptst          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gaptst
+- ✅ OK gaptst          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gaptst
+- ✅ OK gdscript        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdscript
+- ✅ OK gdshader        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdshader
+- ✅ OK gdshader        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gdshader
+- ✅ OK git_config      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/git_config
+- ✅ OK git_config      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/git_config
+- ✅ OK git_config      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/git_config
+- ✅ OK git_rebase      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/git_rebase
+- ✅ OK git_rebase      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/git_rebase
+- ✅ OK gitattributes   highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitattributes
+- ✅ OK gitattributes   injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitattributes
+- ✅ OK gitattributes   locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitattributes
+- ✅ OK gitcommit       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitcommit
+- ✅ OK gitcommit       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitcommit
+- ✅ OK gitignore       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitignore
+- ✅ OK gitignore       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gitignore
+- ✅ OK gleam           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gleam
+- ✅ OK gleam           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gleam
+- ✅ OK gleam           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gleam
+- ✅ OK gleam           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gleam
+- ✅ OK gleam           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gleam
+- ✅ OK glimmer         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer_javascript highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_javascript indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_javascript injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_javascript locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_typescript highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_typescript
+- ✅ OK glimmer_typescript indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_typescript
+- ✅ OK glimmer_typescript injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glimmer_typescript
+- ✅ OK glsl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glsl
+- ✅ OK glsl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glsl
+- ✅ OK glsl            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glsl
+- ✅ OK glsl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glsl
+- ✅ OK glsl            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/glsl
+- ✅ OK gn              folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gn
+- ✅ OK gn              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gn
+- ✅ OK gn              indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gn
+- ✅ OK gn              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gn
+- ✅ OK gn              locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gn
+- ✅ OK gnuplot         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gnuplot
+- ✅ OK gnuplot         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gnuplot
+- ✅ OK go              folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/go
+- ✅ OK go              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/go
+- ✅ OK go              indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/go
+- ✅ OK go              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/go
+- ✅ OK go              locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/go
+- ✅ OK goctl           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/goctl
+- ✅ OK goctl           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/goctl
+- ✅ OK goctl           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/goctl
+- ✅ OK goctl           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/goctl
+- ✅ OK godot_resource  folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/godot_resource
+- ✅ OK godot_resource  highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/godot_resource
+- ✅ OK godot_resource  injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/godot_resource
+- ✅ OK godot_resource  locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/godot_resource
+- ✅ OK gomod           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gomod
+- ✅ OK gomod           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gomod
+- ✅ OK gosum           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gosum
+- ✅ OK gotmpl          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gotmpl
+- ✅ OK gotmpl          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gotmpl
+- ✅ OK gotmpl          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gotmpl
+- ✅ OK gotmpl          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gotmpl
+- ✅ OK gowork          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gowork
+- ✅ OK gowork          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gowork
+- ✅ OK gpg             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gpg
+- ✅ OK gpg             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gpg
+- ✅ OK graphql         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/graphql
+- ✅ OK graphql         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/graphql
+- ✅ OK graphql         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/graphql
+- ✅ OK gren            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gren
+- ✅ OK gren            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gren
+- ✅ OK groovy          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/groovy
+- ✅ OK groovy          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/groovy
+- ✅ OK groovy          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/groovy
+- ✅ OK groovy          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/groovy
+- ✅ OK groovy          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/groovy
+- ✅ OK gstlaunch       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/gstlaunch
+- ✅ OK hack            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hack
+- ✅ OK hack            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hack
+- ✅ OK hare            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hare
+- ✅ OK hare            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hare
+- ✅ OK hare            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hare
+- ✅ OK hare            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hare
+- ✅ OK hare            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hare
+- ✅ OK haskell         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/haskell
+- ✅ OK haskell         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/haskell
+- ✅ OK haskell         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/haskell
+- ✅ OK haskell         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/haskell
+- ✅ OK haskell_persistent folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/haskell_persistent
+- ✅ OK haskell_persistent highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/haskell_persistent
+- ✅ OK hcl             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hcl
+- ✅ OK hcl             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hcl
+- ✅ OK hcl             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hcl
+- ✅ OK hcl             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hcl
+- ✅ OK heex            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/heex
+- ✅ OK heex            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/heex
+- ✅ OK heex            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/heex
+- ✅ OK heex            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/heex
+- ✅ OK heex            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/heex
+- ✅ OK helm            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/helm
+- ✅ OK helm            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/helm
+- ✅ OK helm            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/helm
+- ✅ OK helm            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/helm
+- ✅ OK hjson           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hjson
+- ✅ OK hjson           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hjson
+- ✅ OK hjson           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hjson
+- ✅ OK hjson           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hjson
+- ✅ OK hjson           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hjson
+- ✅ OK hlsl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsl
+- ✅ OK hlsplaylist     highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsplaylist
+- ✅ OK hlsplaylist     injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hlsplaylist
+- ✅ OK hocon           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hocon
+- ✅ OK hocon           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hocon
+- ✅ OK hocon           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hocon
+- ✅ OK hoon            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hoon
+- ✅ OK hoon            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hoon
+- ✅ OK hoon            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hoon
+- ✅ OK hoon            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hoon
+- ✅ OK html            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html
+- ✅ OK html            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html
+- ✅ OK html            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html
+- ✅ OK html            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html
+- ✅ OK html            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html
+- ✅ OK html_tags       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html_tags
+- ✅ OK html_tags       indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html_tags
+- ✅ OK html_tags       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/html_tags
+- ✅ OK htmldjango      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/htmldjango
+- ✅ OK htmldjango      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/htmldjango
+- ✅ OK htmldjango      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/htmldjango
+- ✅ OK htmldjango      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/htmldjango
+- ✅ OK http            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/http
+- ✅ OK http            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/http
+- ✅ OK http            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/http
+- ✅ OK hurl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hurl
+- ✅ OK hurl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hurl
+- ✅ OK hurl            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hurl
+- ✅ OK hurl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hurl
+- ✅ OK hyprlang        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hyprlang
+- ✅ OK hyprlang        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hyprlang
+- ✅ OK hyprlang        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hyprlang
+- ✅ OK hyprlang        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/hyprlang
+- ✅ OK idl             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idl
+- ✅ OK idl             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idl
+- ✅ OK idl             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idl
+- ✅ OK idris           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idris
+- ✅ OK idris           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idris
+- ✅ OK idris           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idris
+- ✅ OK idris           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/idris
+- ✅ OK ini             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ini
+- ✅ OK ini             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ini
+- ✅ OK ini             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ini
+- ✅ OK inko            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/inko
+- ✅ OK inko            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/inko
+- ✅ OK inko            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/inko
+- ✅ OK inko            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/inko
+- ✅ OK inko            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/inko
+- ✅ OK ipkg            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ipkg
+- ✅ OK ispc            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ispc
+- ✅ OK ispc            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ispc
+- ✅ OK ispc            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ispc
+- ✅ OK ispc            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ispc
+- ✅ OK ispc            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ispc
+- ✅ OK janet_simple    folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/janet_simple
+- ✅ OK janet_simple    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/janet_simple
+- ✅ OK janet_simple    injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/janet_simple
+- ✅ OK janet_simple    locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/janet_simple
+- ✅ OK java            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/java
+- ✅ OK java            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/java
+- ✅ OK java            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/java
+- ✅ OK java            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/java
+- ✅ OK java            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/java
+- ✅ OK javadoc         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javadoc
+- ✅ OK javadoc         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javadoc
+- ✅ OK javadoc         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javadoc
+- ✅ OK javascript      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javascript
+- ✅ OK javascript      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javascript
+- ✅ OK javascript      highlights      /home/agent/.local/share/nvim/lazy/catppuccin/after/queries/javascript
+- ✅ OK javascript      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javascript
+- ✅ OK javascript      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javascript
+- ✅ OK javascript      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/javascript
+- ✅ OK jinja           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jinja
+- ✅ OK jinja           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jinja
+- ✅ OK jinja_inline    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jinja_inline
+- ✅ OK jinja_inline    injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jinja_inline
+- ✅ OK jq              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jq
+- ✅ OK jq              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jq
+- ✅ OK jq              locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jq
+- ✅ OK jsdoc           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsdoc
+- ✅ OK json            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/json
+- ✅ OK json            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/json
+- ✅ OK json            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/json
+- ✅ OK json            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/json
+- ✅ OK json5           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/json5
+- ✅ OK json5           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/json5
+- ✅ OK jsonc           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonc
+- ✅ OK jsonnet         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonnet
+- ✅ OK jsonnet         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonnet
+- ✅ OK jsonnet         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonnet
+- ✅ OK jsonnet         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsonnet
+- ✅ OK jsx             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsx
+- ✅ OK jsx             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsx
+- ✅ OK jsx             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsx
+- ✅ OK jsx             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/jsx
+- ✅ OK julia           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/julia
+- ✅ OK julia           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/julia
+- ✅ OK julia           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/julia
+- ✅ OK julia           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/julia
+- ✅ OK julia           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/julia
+- ✅ OK just            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/just
+- ✅ OK just            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/just
+- ✅ OK just            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/just
+- ✅ OK just            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/just
+- ✅ OK just            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/just
+- ✅ OK kcl             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kcl
+- ✅ OK kcl             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kcl
+- ✅ OK kcl             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kcl
+- ✅ OK kconfig         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kconfig
+- ✅ OK kdl             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kdl
+- ✅ OK kdl             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kdl
+- ✅ OK kdl             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kdl
+- ✅ OK kdl             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kdl
+- ✅ OK kdl             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kdl
+- ✅ OK kotlin          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kotlin
+- ✅ OK kotlin          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kotlin
+- ✅ OK kotlin          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kotlin
+- ✅ OK kotlin          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kotlin
+- ✅ OK koto            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/koto
+- ✅ OK koto            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/koto
+- ✅ OK koto            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/koto
+- ✅ OK koto            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/koto
+- ✅ OK kusto           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kusto
+- ✅ OK kusto           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/kusto
+- ✅ OK lalrpop         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lalrpop
+- ✅ OK lalrpop         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lalrpop
+- ✅ OK lalrpop         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lalrpop
+- ✅ OK lalrpop         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lalrpop
+- ✅ OK latex           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/latex
+- ✅ OK latex           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/latex
+- ✅ OK latex           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/latex
+- ✅ OK ledger          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ledger
+- ✅ OK ledger          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ledger
+- ✅ OK ledger          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ledger
+- ✅ OK ledger          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ledger
+- ✅ OK leo             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/leo
+- ✅ OK leo             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/leo
+- ✅ OK leo             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/leo
+- ✅ OK linkerscript    folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/linkerscript
+- ✅ OK liquid          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquid
+- ✅ OK liquid          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquid
+- ✅ OK liquidsoap      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/liquidsoap
+- ✅ OK llvm            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/llvm
+- ✅ OK llvm            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/llvm
+- ✅ OK lua             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lua
+- ✅ OK lua             folds           /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/lua
+- ✅ OK lua             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lua
+- ✅ OK lua             highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/lua
+- ✅ OK lua             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lua
+- ✅ OK lua             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lua
+- ✅ OK lua             injections      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/lua
+- ✅ OK lua             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/lua
+- ✅ OK luadoc          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luadoc
+- ✅ OK luap            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luap
+- ✅ OK luau            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luau
+- ✅ OK luau            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luau
+- ✅ OK luau            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luau
+- ✅ OK luau            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luau
+- ✅ OK luau            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/luau
+- ✅ OK m68k            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/m68k
+- ✅ OK m68k            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/m68k
+- ✅ OK m68k            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/m68k
+- ✅ OK m68k            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/m68k
+- ✅ OK make            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/make
+- ✅ OK make            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/make
+- ✅ OK make            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/make
+- ✅ OK markdown        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/markdown
+- ✅ OK markdown        folds           /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/markdown
+- ✅ OK markdown        highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/markdown
+- ✅ OK markdown        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/markdown
+- ✅ OK markdown        injections      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/markdown
+- ✅ OK markdown_inline highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/markdown_inline
+- ✅ OK markdown_inline highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/markdown_inline
+- ✅ OK markdown_inline injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/markdown_inline
+- ✅ OK markdown_inline injections      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/markdown_inline
+- ✅ OK matlab          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/matlab
+- ✅ OK matlab          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/matlab
+- ✅ OK matlab          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/matlab
+- ✅ OK matlab          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/matlab
+- ✅ OK matlab          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/matlab
+- ✅ OK menhir          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/menhir
+- ✅ OK menhir          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/menhir
+- ✅ OK mermaid         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mermaid
+- ✅ OK mermaid         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mermaid
+- ✅ OK mermaid         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mermaid
+- ✅ OK mermaid         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mermaid
+- ✅ OK meson           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/meson
+- ✅ OK meson           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/meson
+- ✅ OK meson           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/meson
+- ✅ OK meson           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/meson
+- ✅ OK mlir            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mlir
+- ✅ OK mlir            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mlir
+- ✅ OK mlir            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/mlir
+- ✅ OK muttrc          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/muttrc
+- ✅ OK muttrc          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/muttrc
+- ✅ OK nasm            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nasm
+- ✅ OK nasm            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nasm
+- ✅ OK nginx           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nginx
+- ✅ OK nginx           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nginx
+- ✅ OK nginx           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nginx
+- ✅ OK nickel          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nickel
+- ✅ OK nickel          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nickel
+- ✅ OK nickel          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nickel
+- ✅ OK nim             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nim
+- ✅ OK nim             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nim
+- ✅ OK nim             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nim
+- ✅ OK nim             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nim
+- ✅ OK nim_format_string highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nim_format_string
+- ✅ OK nim_format_string injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nim_format_string
+- ✅ OK ninja           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ninja
+- ✅ OK ninja           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ninja
+- ✅ OK ninja           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ninja
+- ✅ OK ninja           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ninja
+- ✅ OK nix             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nix
+- ✅ OK nix             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nix
+- ✅ OK nix             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nix
+- ✅ OK nix             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nix
+- ✅ OK nix             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nix
+- ✅ OK nqc             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nqc
+- ✅ OK nqc             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nqc
+- ✅ OK nqc             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nqc
+- ✅ OK nqc             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nqc
+- ✅ OK nqc             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nqc
+- ✅ OK nu              folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nu
+- ✅ OK nu              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nu
+- ✅ OK nu              indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nu
+- ✅ OK nu              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/nu
+- ✅ OK objc            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objc
+- ✅ OK objc            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objc
+- ✅ OK objc            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objc
+- ✅ OK objc            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objc
+- ✅ OK objc            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objc
+- ✅ OK objdump         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objdump
+- ✅ OK objdump         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/objdump
+- ✅ OK ocaml           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml_interface folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocamllex        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocamllex
+- ✅ OK ocamllex        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ocamllex
+- ✅ OK odin            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/odin
+- ✅ OK odin            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/odin
+- ✅ OK odin            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/odin
+- ✅ OK odin            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/odin
+- ✅ OK odin            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/odin
+- ✅ OK pascal          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pascal
+- ✅ OK pascal          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pascal
+- ✅ OK pascal          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pascal
+- ✅ OK pascal          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pascal
+- ✅ OK pascal          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pascal
+- ✅ OK passwd          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/passwd
+- ✅ OK pem             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pem
+- ✅ OK pem             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pem
+- ✅ OK pem             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pem
+- ✅ OK perl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/perl
+- ✅ OK perl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/perl
+- ✅ OK perl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/perl
+- ✅ OK php             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php
+- ✅ OK php             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php
+- ✅ OK php             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php
+- ✅ OK php             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php
+- ✅ OK php             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php
+- ✅ OK php_only        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php_only
+- ✅ OK php_only        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php_only
+- ✅ OK php_only        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php_only
+- ✅ OK php_only        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php_only
+- ✅ OK php_only        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/php_only
+- ✅ OK phpdoc          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/phpdoc
+- ✅ OK pioasm          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pioasm
+- ✅ OK pioasm          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pioasm
+- ✅ OK po              folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/po
+- ✅ OK po              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/po
+- ✅ OK po              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/po
+- ✅ OK pod             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pod
+- ✅ OK poe_filter      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/poe_filter
+- ✅ OK poe_filter      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/poe_filter
+- ✅ OK poe_filter      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/poe_filter
+- ✅ OK poe_filter      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/poe_filter
+- ✅ OK pony            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pony
+- ✅ OK pony            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pony
+- ✅ OK pony            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pony
+- ✅ OK pony            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pony
+- ✅ OK pony            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pony
+- ✅ OK powershell      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/powershell
+- ✅ OK powershell      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/powershell
+- ✅ OK powershell      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/powershell
+- ✅ OK powershell      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/powershell
+- ✅ OK powershell      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/powershell
+- ✅ OK printf          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/printf
+- ✅ OK prisma          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prisma
+- ✅ OK prisma          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prisma
+- ✅ OK prisma          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prisma
+- ✅ OK problog         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/problog
+- ✅ OK problog         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/problog
+- ✅ OK problog         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/problog
+- ✅ OK problog         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/problog
+- ✅ OK prolog          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prolog
+- ✅ OK prolog          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prolog
+- ✅ OK prolog          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prolog
+- ✅ OK prolog          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prolog
+- ✅ OK promql          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/promql
+- ✅ OK promql          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/promql
+- ✅ OK properties      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/properties
+- ✅ OK properties      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/properties
+- ✅ OK properties      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/properties
+- ✅ OK proto           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/proto
+- ✅ OK proto           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/proto
+- ✅ OK proto           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/proto
+- ✅ OK proto           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/proto
+- ✅ OK prql            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prql
+- ✅ OK prql            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/prql
+- ✅ OK psv             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/psv
+- ✅ OK pug             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pug
+- ✅ OK pug             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pug
+- ✅ OK puppet          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/puppet
+- ✅ OK puppet          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/puppet
+- ✅ OK puppet          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/puppet
+- ✅ OK puppet          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/puppet
+- ✅ OK puppet          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/puppet
+- ✅ OK purescript      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/purescript
+- ✅ OK purescript      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/purescript
+- ✅ OK purescript      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/purescript
+- ✅ OK pymanifest      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pymanifest
+- ✅ OK pymanifest      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/pymanifest
+- ✅ OK python          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/python
+- ✅ OK python          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/python
+- ✅ OK python          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/python
+- ✅ OK python          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/python
+- ✅ OK python          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/python
+- ✅ OK ql              folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ql
+- ✅ OK ql              highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ql
+- ✅ OK ql              indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ql
+- ✅ OK ql              injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ql
+- ✅ OK ql              locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ql
+- ✅ OK qmldir          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/qmldir
+- ✅ OK qmldir          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/qmldir
+- ✅ OK qmljs           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/qmljs
+- ✅ OK qmljs           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/qmljs
+- ✅ OK qmljs           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/qmljs
+- ✅ OK query           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/query
+- ✅ OK query           folds           /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/query
+- ✅ OK query           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/query
+- ✅ OK query           highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/query
+- ✅ OK query           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/query
+- ✅ OK query           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/query
+- ✅ OK query           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/query
+- ✅ OK r               highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/r
+- ✅ OK r               indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/r
+- ✅ OK r               injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/r
+- ✅ OK r               locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/r
+- ✅ OK racket          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/racket
+- ✅ OK racket          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/racket
+- ✅ OK racket          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/racket
+- ✅ OK ralph           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ralph
+- ✅ OK ralph           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ralph
+- ✅ OK rasi            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rasi
+- ✅ OK rasi            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rasi
+- ✅ OK rasi            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rasi
+- ✅ OK rasi            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rasi
+- ✅ OK rasi            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rasi
+- ✅ OK razor           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/razor
+- ✅ OK razor           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/razor
+- ✅ OK razor           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/razor
+- ✅ OK rbs             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rbs
+- ✅ OK rbs             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rbs
+- ✅ OK rbs             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rbs
+- ✅ OK rbs             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rbs
+- ✅ OK re2c            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/re2c
+- ✅ OK re2c            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/re2c
+- ✅ OK re2c            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/re2c
+- ✅ OK re2c            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/re2c
+- ✅ OK re2c            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/re2c
+- ✅ OK readline        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/readline
+- ✅ OK readline        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/readline
+- ✅ OK readline        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/readline
+- ✅ OK readline        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/readline
+- ✅ OK regex           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/regex
+- ✅ OK rego            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rego
+- ✅ OK rego            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rego
+- ✅ OK requirements    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/requirements
+- ✅ OK requirements    injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/requirements
+- ✅ OK rescript        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rescript
+- ✅ OK rescript        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rescript
+- ✅ OK rescript        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rescript
+- ✅ OK rescript        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rescript
+- ✅ OK rescript        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rescript
+- ✅ OK rnoweb          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rnoweb
+- ✅ OK rnoweb          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rnoweb
+- ✅ OK rnoweb          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rnoweb
+- ✅ OK robot           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/robot
+- ✅ OK robot           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/robot
+- ✅ OK robot           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/robot
+- ✅ OK robot           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/robot
+- ✅ OK robots          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/robots
+- ✅ OK robots          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/robots
+- ✅ OK roc             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/roc
+- ✅ OK roc             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/roc
+- ✅ OK roc             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/roc
+- ✅ OK roc             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/roc
+- ✅ OK ron             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ron
+- ✅ OK ron             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ron
+- ✅ OK ron             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ron
+- ✅ OK ron             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ron
+- ✅ OK ron             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ron
+- ✅ OK rst             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rst
+- ✅ OK rst             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rst
+- ✅ OK rst             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rst
+- ✅ OK ruby            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ruby
+- ✅ OK ruby            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ruby
+- ✅ OK ruby            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ruby
+- ✅ OK ruby            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ruby
+- ✅ OK ruby            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ruby
+- ✅ OK runescript      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/runescript
+- ✅ OK runescript      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/runescript
+- ✅ OK rust            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rust
+- ✅ OK rust            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rust
+- ✅ OK rust            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rust
+- ✅ OK rust            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rust
+- ✅ OK rust            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/rust
+- ✅ OK scala           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scala
+- ✅ OK scala           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scala
+- ✅ OK scala           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scala
+- ✅ OK scala           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scala
+- ✅ OK scfg            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scfg
+- ✅ OK scfg            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scfg
+- ✅ OK scheme          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scheme
+- ✅ OK scheme          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scheme
+- ✅ OK scheme          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scheme
+- ✅ OK scss            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scss
+- ✅ OK scss            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scss
+- ✅ OK scss            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scss
+- ✅ OK scss            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/scss
+- ✅ OK sflog           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sflog
+- ✅ OK slang           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slang
+- ✅ OK slang           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slang
+- ✅ OK slang           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slang
+- ✅ OK slang           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slang
+- ✅ OK slang           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slang
+- ✅ OK slim            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slim
+- ✅ OK slim            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slim
+- ✅ OK slim            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slim
+- ✅ OK slim            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slim
+- ✅ OK slim            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slim
+- ✅ OK slint           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slint
+- ✅ OK slint           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slint
+- ✅ OK slint           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slint
+- ✅ OK slint           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slint
+- ✅ OK slint           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/slint
+- ✅ OK smali           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smali
+- ✅ OK smali           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smali
+- ✅ OK smali           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smali
+- ✅ OK smali           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smali
+- ✅ OK smali           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smali
+- ✅ OK smithy          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smithy
+- ✅ OK smithy          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/smithy
+- ✅ OK snakemake       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/snakemake
+- ✅ OK solidity        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/solidity
+- ✅ OK solidity        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/solidity
+- ✅ OK solidity        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/solidity
+- ✅ OK soql            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/soql
+- ✅ OK sosl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sosl
+- ✅ OK sourcepawn      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sourcepawn
+- ✅ OK sourcepawn      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sourcepawn
+- ✅ OK sourcepawn      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sourcepawn
+- ✅ OK sparql          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sparql
+- ✅ OK sparql          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sparql
+- ✅ OK sparql          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sparql
+- ✅ OK sparql          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sparql
+- ✅ OK sparql          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sparql
+- ✅ OK sql             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sql
+- ✅ OK sql             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sql
+- ✅ OK sql             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sql
+- ✅ OK sql             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sql
+- ✅ OK squirrel        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/squirrel
+- ✅ OK ssh_config      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ssh_config
+- ✅ OK starlark        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/starlark
+- ✅ OK starlark        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/starlark
+- ✅ OK starlark        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/starlark
+- ✅ OK starlark        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/starlark
+- ✅ OK starlark        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/starlark
+- ✅ OK strace          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/strace
+- ✅ OK strace          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/strace
+- ✅ OK styled          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/styled
+- ✅ OK styled          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/styled
+- ✅ OK styled          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/styled
+- ✅ OK styled          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/styled
+- ✅ OK supercollider   folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/supercollider
+- ✅ OK superhtml       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/superhtml
+- ✅ OK superhtml       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/superhtml
+- ✅ OK surface         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/surface
+- ✅ OK surface         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/surface
+- ✅ OK surface         indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/surface
+- ✅ OK surface         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/surface
+- ✅ OK svelte          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/svelte
+- ✅ OK svelte          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/svelte
+- ✅ OK svelte          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/svelte
+- ✅ OK svelte          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/svelte
+- ✅ OK svelte          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/svelte
+- ✅ OK sway            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sway
+- ✅ OK sway            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sway
+- ✅ OK sway            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sway
+- ✅ OK sway            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sway
+- ✅ OK sway            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sway
+- ✅ OK swift           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/swift
+- ✅ OK swift           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/swift
+- ✅ OK swift           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/swift
+- ✅ OK swift           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/swift
+- ✅ OK swift           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/swift
+- ✅ OK sxhkdrc         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sxhkdrc
+- ✅ OK sxhkdrc         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sxhkdrc
+- ✅ OK sxhkdrc         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/sxhkdrc
+- ✅ OK systemtap       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/systemtap
+- ✅ OK systemtap       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/systemtap
+- ✅ OK systemtap       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/systemtap
+- ✅ OK systemtap       locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/systemtap
+- ✅ OK t32             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/t32
+- ✅ OK t32             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/t32
+- ✅ OK t32             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/t32
+- ✅ OK t32             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/t32
+- ✅ OK t32             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/t32
+- ✅ OK tablegen        folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tablegen
+- ✅ OK tact            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tact
+- ✅ OK tact            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tact
+- ✅ OK tact            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tact
+- ✅ OK tact            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tact
+- ✅ OK tact            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tact
+- ✅ OK tcl             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tcl
+- ✅ OK tcl             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tcl
+- ✅ OK tcl             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tcl
+- ✅ OK tcl             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tcl
+- ✅ OK teal            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/teal
+- ✅ OK teal            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/teal
+- ✅ OK teal            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/teal
+- ✅ OK teal            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/teal
+- ✅ OK teal            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/teal
+- ✅ OK templ           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/templ
+- ✅ OK templ           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/templ
+- ✅ OK templ           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/templ
+- ✅ OK tera            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tera
+- ✅ OK tera            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tera
+- ✅ OK terraform       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/terraform
+- ✅ OK terraform       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/terraform
+- ✅ OK terraform       indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/terraform
+- ✅ OK terraform       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/terraform
+- ✅ OK textproto       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/textproto
+- ✅ OK textproto       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/textproto
+- ✅ OK textproto       indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/textproto
+- ✅ OK textproto       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/textproto
+- ✅ OK thrift          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/thrift
+- ✅ OK thrift          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/thrift
+- ✅ OK thrift          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/thrift
+- ✅ OK thrift          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/thrift
+- ✅ OK thrift          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/thrift
+- ✅ OK tiger           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tiger
+- ✅ OK tiger           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tiger
+- ✅ OK tiger           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tiger
+- ✅ OK tiger           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tiger
+- ✅ OK tiger           locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tiger
+- ✅ OK tlaplus         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tlaplus
+- ✅ OK tlaplus         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tlaplus
+- ✅ OK tlaplus         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tlaplus
+- ✅ OK tlaplus         locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tlaplus
+- ✅ OK tmux            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tmux
+- ✅ OK tmux            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tmux
+- ✅ OK todotxt         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/todotxt
+- ✅ OK toml            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/toml
+- ✅ OK toml            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/toml
+- ✅ OK toml            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/toml
+- ✅ OK toml            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/toml
+- ✅ OK toml            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/toml
+- ✅ OK tsv             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tsv
+- ✅ OK tsx             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tsx
+- ✅ OK tsx             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tsx
+- ✅ OK tsx             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tsx
+- ✅ OK tsx             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tsx
+- ✅ OK tsx             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/tsx
+- ✅ OK turtle          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/turtle
+- ✅ OK turtle          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/turtle
+- ✅ OK turtle          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/turtle
+- ✅ OK turtle          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/turtle
+- ✅ OK turtle          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/turtle
+- ✅ OK twig            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/twig
+- ✅ OK twig            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/twig
+- ✅ OK typescript      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typescript
+- ✅ OK typescript      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typescript
+- ✅ OK typescript      highlights      /home/agent/.local/share/nvim/lazy/catppuccin/after/queries/typescript
+- ✅ OK typescript      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typescript
+- ✅ OK typescript      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typescript
+- ✅ OK typescript      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typescript
+- ✅ OK typespec        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typespec
+- ✅ OK typespec        indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typespec
+- ✅ OK typespec        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typespec
+- ✅ OK typoscript      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typoscript
+- ✅ OK typoscript      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typoscript
+- ✅ OK typoscript      indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typoscript
+- ✅ OK typoscript      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typoscript
+- ✅ OK typst           folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typst
+- ✅ OK typst           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typst
+- ✅ OK typst           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typst
+- ✅ OK typst           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/typst
+- ✅ OK udev            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/udev
+- ✅ OK udev            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/udev
+- ✅ OK udev            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/udev
+- ✅ OK ungrammar       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ungrammar
+- ✅ OK unison          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/unison
+- ✅ OK unison          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/unison
+- ✅ OK unison          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/unison
+- ✅ OK usd             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/usd
+- ✅ OK usd             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/usd
+- ✅ OK usd             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/usd
+- ✅ OK usd             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/usd
+- ✅ OK usd             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/usd
+- ✅ OK uxntal          folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/uxntal
+- ✅ OK v               folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/v
+- ✅ OK v               highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/v
+- ✅ OK v               indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/v
+- ✅ OK v               injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/v
+- ✅ OK v               locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/v
+- ✅ OK vala            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vala
+- ✅ OK vala            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vala
+- ✅ OK vala            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vala
+- ✅ OK vento           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vento
+- ✅ OK vento           injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vento
+- ✅ OK verilog         folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/verilog
+- ✅ OK verilog         highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/verilog
+- ✅ OK verilog         injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/verilog
+- ✅ OK vhdl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vhdl
+- ✅ OK vhdl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vhdl
+- ✅ OK vhdl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vhdl
+- ✅ OK vhs             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vhs
+- ✅ OK vhs             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vhs
+- ✅ OK vim             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vim
+- ✅ OK vim             folds           /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/vim
+- ✅ OK vim             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vim
+- ✅ OK vim             highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/vim
+- ✅ OK vim             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vim
+- ✅ OK vim             injections      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/vim
+- ✅ OK vim             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vim
+- ✅ OK vimdoc          highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vimdoc
+- ✅ OK vimdoc          highlights      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/vimdoc
+- ✅ OK vimdoc          injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vimdoc
+- ✅ OK vimdoc          injections      /tmp/.mount_nvimOjbJHf/usr/share/nvim/runtime/queries/vimdoc
+- ✅ OK vrl             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vrl
+- ✅ OK vrl             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vrl
+- ✅ OK vrl             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vrl
+- ✅ OK vrl             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vrl
+- ✅ OK vrl             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vrl
+- ✅ OK vue             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vue
+- ✅ OK vue             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vue
+- ✅ OK vue             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vue
+- ✅ OK vue             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/vue
+- ✅ OK wgsl            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl_bevy       folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl_bevy
+- ✅ OK wgsl_bevy       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl_bevy
+- ✅ OK wgsl_bevy       indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wgsl_bevy
+- ✅ OK wing            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wing
+- ✅ OK wing            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wing
+- ✅ OK wing            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wing
+- ✅ OK wing            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wing
+- ✅ OK wit             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wit
+- ✅ OK wit             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wit
+- ✅ OK wit             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/wit
+- ✅ OK xcompose        highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xcompose
+- ✅ OK xcompose        injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xcompose
+- ✅ OK xcompose        locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xcompose
+- ✅ OK xml             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xml
+- ✅ OK xml             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xml
+- ✅ OK xml             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xml
+- ✅ OK xml             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xml
+- ✅ OK xml             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xml
+- ✅ OK xresources      folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xresources
+- ✅ OK xresources      highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xresources
+- ✅ OK xresources      injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xresources
+- ✅ OK xresources      locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/xresources
+- ✅ OK yaml            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yaml
+- ✅ OK yaml            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yaml
+- ✅ OK yaml            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yaml
+- ✅ OK yaml            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yaml
+- ✅ OK yaml            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yaml
+- ✅ OK yang            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yang
+- ✅ OK yang            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yang
+- ✅ OK yang            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yang
+- ✅ OK yang            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yang
+- ✅ OK yuck            folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yuck
+- ✅ OK yuck            highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yuck
+- ✅ OK yuck            indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yuck
+- ✅ OK yuck            injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yuck
+- ✅ OK yuck            locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/yuck
+- ✅ OK zathurarc       highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zathurarc
+- ✅ OK zathurarc       injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zathurarc
+- ✅ OK zig             folds           /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zig
+- ✅ OK zig             highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zig
+- ✅ OK zig             indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zig
+- ✅ OK zig             injections      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zig
+- ✅ OK zig             locals          /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/zig
+- ✅ OK ziggy           highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ziggy
+- ✅ OK ziggy           indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ziggy
+- ✅ OK ziggy_schema    highlights      /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ziggy_schema
+- ✅ OK ziggy_schema    indents         /home/agent/.local/share/nvim/lazy/nvim-treesitter/queries/ziggy_schema
+
+==============================================================================
+which-key:                                                                1 ⚠️
+
+- ✅ OK Most of these checks are for informational purposes only.
+  WARNINGS should be treated as a warning, and don't necessarily indicate a problem with your config.
+  Please |DON'T| report these warnings as an issue.
+
+Checking your config ~
+- ⚠️ WARNING |mini.icons| is not installed
+- ✅ OK |nvim-web-devicons| is installed
+
+Checking for issues with your mappings ~
+- ✅ OK No issues reported
+
+checking for overlapping keymaps ~
+- ✅ OK No overlapping keymaps found
+
+Checking for duplicate mappings ~
+- ✅ OK No duplicate mappings found
+

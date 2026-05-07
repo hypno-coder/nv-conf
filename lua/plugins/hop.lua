@@ -9,7 +9,7 @@
 -- T Прыжок назад к символу на любом месте (по всему буферу)
 
 return {
-    "phaazon/hop.nvim",
+    "smoka7/hop.nvim",
     config = function()
         require("hop").setup()
         local hop = require("hop")
