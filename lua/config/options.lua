@@ -30,8 +30,21 @@ vim.opt.relativenumber = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
--- Clipboard
+-- Clipboard и Настраиваем OSC 52 как провайдер буфера обмена
 vim.opt.clipboard = "unnamedplus"
+vim.g.clipboard = {
+  name = 'OSC 52',
+  copy = {
+    ['+'] = require('vim.ui.clipboard.osc52').copy('+'),
+    ['*'] = require('vim.ui.clipboard.osc52').copy('*'),
+  },
+  paste = {
+    ['+'] = require('vim.ui.clipboard.osc52').paste('+'),
+    ['*'] = require('vim.ui.clipboard.osc52').paste('*'),
+  },
+}
+
+
 
 -- Search Settings
 vim.opt.ignorecase = true
